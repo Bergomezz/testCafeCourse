@@ -1,0 +1,14 @@
+{
+  "name": "testCafeCourse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./test"
+  },
+  "repository": "https://github.com/Bergomezz/testDafeCourse.git",
+  "author": "Bergomezz <bernardogomezz@yahoo.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^3.3.0"
+  }
+}
