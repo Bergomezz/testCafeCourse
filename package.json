@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "testcafe chrome ./tests",
-    "test:chrome:headless": "testcafe chrome:headless ./tests",
-    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests",
-    "test:safari": "testcafe safari ./tests",
-    "test:firefox": "testcafe firefox ./tests"
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
+    "test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests -s takeOnFails=true",
+    "test:safari": "testcafe safari ./tests -s takeOnFails=true",
+    "test:firefox": "testcafe firefox ./tests -s takeOnFails=true"
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
   "author": "Bergomezz <bernardogomezz@yahoo.com.br>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "testcafe": "^3.3.0"
   }
