@@ -4,12 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test:browser": "powershell -File ./run-test.ps1",
+    "test:browser": "testcafe --config-file .testcaferc.json ./tests -s takeOnFails=true",
     "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
     "test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
     "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests -s takeOnFails=true",
     "test:safari": "testcafe safari ./tests -s takeOnFails=true",
-    "test:firefox": "testcafe firefox ./tests -s takeOnFails=true"
+    "test:firefox": "testcafe firefox:headless ./tests -s takeOnFails=true"
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
   "author": "Bergomezz <bernardogomezz@yahoo.com.br>",
