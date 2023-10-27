@@ -1,0 +1,4 @@
+script:
+  test:browser:
+  browserName: [chrome, firefox, safari]
+  testcafe browserName ./tests -s takeOnFails=true
