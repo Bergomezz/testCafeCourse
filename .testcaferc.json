@@ -1,4 +1,11 @@
 {
   "screenshotPath": "./screenshots",
-  "screenshotPathPattern": "${DATE}${TIME}/${FIXTURE}.png"
+  "screenshotPathPattern": "${DATE}${TIME}/${FIXTURE}.png",
+  "browsers": [
+    "chrome:headless",
+    "firefox:headless",
+    "edge:headless",
+    "chrome:headless:emulation:device=iphone X",
+    "chrome:headless:emulation:device=ipad"
+  ]
 }
