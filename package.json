@@ -4,7 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
 
+=======
+>>>>>>> webAutomationTesting
     "test:browsers": "testcafe --browser-list .testcaferc.json ./tests -s takeOnFails=true"
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
