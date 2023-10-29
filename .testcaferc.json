@@ -5,6 +5,7 @@
     "chrome:headless",
     "firefox:headless",
     "edge:headless",
-    "chrome:headless:emulation:device=iphone X"
+    "chrome:headless:emulation:device=iphone X",
+    "chrome:headless:emulation:device=ipad"
   ]
 }
