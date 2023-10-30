@@ -27,4 +27,5 @@ test('forgotten password test', async t => {
   await t.typeText(emailForm, 't@t.com', { paste: true });
   await t.click(submitEmailButton);
   await t.expect(pageHeader.exists).ok();
+  await t.expect(emailForm.exists).notOk();
 });
