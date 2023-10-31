@@ -4,15 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
     "test:browsers": "testcafe --browser-list .testcaferc.json ./tests",
     "test:mobile": "testcafe chrome:headless:emulation:device=iphone X,chrome:headless:emulation:device=ipad ./tests -s takeOnFails=true"
-=======
-
-    "test:browsers": "testcafe --browser-list .testcaferc.json ./tests -s takeOnFails=true",
-    "test:mobile": "testcafe chrome:headless:emulation:device=iphone X,chrome:headless:emulation:device=ipad ./tests -s takeOnFails=true"
-
->>>>>>> b6a153dd5c4a8c2506fd1487faee042124e3c6b1
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
   "author": "Bergomezz <bernardogomezz@yahoo.com.br>",
