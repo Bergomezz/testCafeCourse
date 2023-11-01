@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test:browsers": "testcafe --browser-list .testcaferc.json ./tests",
+    "test:browsers": "testcafe -c 3 --browser-list .testcaferc.json ./tests",
     "test:mobile": "testcafe chrome:headless:emulation:device=iphone X,chrome:headless:emulation:device=ipad ./tests -s takeOnFails=true"
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
