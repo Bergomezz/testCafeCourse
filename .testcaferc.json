@@ -4,12 +4,8 @@
   "browsers": ["chrome:headless", "firefox:headless", "edge:headless"],
   "quarantineMode": true,
   "successThreshold": 4,
-<<<<<<< HEAD
   "attempLimit": 7,
   "screenshots": {
     "takeOnFails": true
   }
-=======
-  "attempLimit": 7
->>>>>>> b6a153dd5c4a8c2506fd1487faee042124e3c6b1
 }
