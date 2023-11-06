@@ -1,6 +1,6 @@
-import { Selector } from 'testcafe';
+import { Selector, t } from 'testcafe';
 
-export class Locators {
+export default class Locators {
   loginForm = Selector('#login_form');
   usernameInput = Selector('#user_login');
   passwordInput = Selector('#user_password');
@@ -16,4 +16,5 @@ export class Locators {
   onlineBakingButton = Selector('#onlineBankingMenu');
   searchingBoxInput = Selector('#searchTerm');
   payBillsTab = Selector('#pay_bills_tab');
+  sendPage = Selector('div');
 }
