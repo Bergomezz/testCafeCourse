@@ -1,5 +1,5 @@
 import { Selector } from 'testcafe';
-import { Locators } from '../../Class/Locators';
+import { Locators } from '../../page-objects/pages/Locators';
 
 const locators = new Locators();
 

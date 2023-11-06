@@ -1,6 +1,6 @@
 import { Selector, RequestLogger } from 'testcafe';
-import { UsersInformations } from '../../Class/UserInformations';
-import { Locators } from '../../Class/Locators';
+import { UsersInformations } from '../../page-objects/components/UserInformations';
+import { Locators } from '../../page-objects/pages/Locators';
 
 const usersInformations = new UsersInformations();
 const locators = new Locators();

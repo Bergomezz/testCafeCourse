@@ -1,5 +1,5 @@
 import { t } from 'testcafe';
-import { Locators } from './Class/Locators';
+import { Locators } from './page-objects/pages/Locators';
 
 const localize = new Locators();
 
