@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test:browsers": "testcafe -c 3 --browser-list .testcaferc.json ./tests",
+    "test:browsers": "testcafe -c 3 --browser-list .testcaferc.json ./tests --reporter json",
     "test:mobile": "testcafe chrome:headless:emulation:device=iphone X,chrome:headless:emulation:device=ipad ./tests -s takeOnFails=true"
   },
   "repository": "https://github.com/Bergomezz/testDafeCourse.git",
@@ -14,6 +14,7 @@
     "cross-env": "^7.0.3",
     "cross-var": "^1.1.0",
     "dotenv": "^16.3.1",
-    "testcafe": "^3.3.0"
+    "testcafe": "^3.3.0",
+    "testcafe-reporter-json": "^2.2.0"
   }
 }
